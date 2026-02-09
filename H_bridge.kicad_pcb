@@ -1372,6 +1372,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Castellated"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4a355dea-4a93-475c-8fde-ab204e381e9a")
 		(at 119.616 64.795 -90)
@@ -6697,15 +6698,15 @@
 			(uuid "f862bfa0-3105-4ef9-9a05-17e08bcb2bf2")
 		)
 		(embedded_fonts no)
-		(model "${MG_3DMODEL_DIR}/POWERSSO-36TP_STM.step"
+		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/POWERSSO-36_L10.3-W7.5-H2.3-P0.50-LS10.3-BL-EP_VNH5050ATR-E.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -7683,7 +7684,7 @@
 	(footprint "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Castellated"
 		(layer "F.Cu")
 		(uuid "f2843019-9f2f-4714-89d0-d1c3d1cc09c5")
-		(at 132.062 64.705 -90)
+		(at 132.062 64.795 -90)
 		(descr "Through hole straight socket strip, 1x04, 1.27mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 1.27mm single row")
 		(property "Reference" "J1"
@@ -8590,7 +8591,7 @@
 		)
 	)
 	(gr_text "SE0"
-		(at 128.76 84.226 90)
+		(at 131.3 84.226 90)
 		(layer "F.SilkS")
 		(uuid "92242097-07c8-4f77-a17d-3f007a3f854c")
 		(effects
@@ -8603,7 +8604,7 @@
 		)
 	)
 	(gr_text "PWM"
-		(at 130.792 83.21 90)
+		(at 128.125 83.21 90)
 		(layer "F.SilkS")
 		(uuid "a3ef22f6-0a29-4770-a40b-b4fc9cbcfdbd")
 		(effects
@@ -9224,28 +9225,12 @@
 		(uuid "c89348ee-fcf6-4ae6-82cb-59b09607ca69")
 	)
 	(segment
-		(start 130.03 82.194)
-		(end 132.697 82.194)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "358e347a-86f5-47cf-a370-e72aa205c504")
-	)
-	(segment
 		(start 134.602 82.067)
 		(end 135.364 82.829)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "3c733d03-087e-494d-9f0a-08b63d28c1a1")
-	)
-	(segment
-		(start 128.379 82.194)
-		(end 130.03 82.194)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "478334d2-e38b-4c8d-877e-76e09a217077")
+		(uuid "7e8c5753-cf33-4015-8e81-033edefc073e")
 	)
 	(segment
 		(start 124.823 78.638)
@@ -9264,28 +9249,20 @@
 		(uuid "9aed25b4-22bd-4d6b-a40c-cd5c963294b5")
 	)
 	(segment
+		(start 135.364 82.829)
+		(end 135.364 82.956)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "a5369f76-18c1-4461-9382-f34bb267f72e")
+	)
+	(segment
 		(start 132.697 82.194)
 		(end 132.824 82.067)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 9)
 		(uuid "acb6bb8d-ae7d-4d02-8edf-b40858333f43")
-	)
-	(segment
-		(start 132.824 82.067)
-		(end 134.602 82.067)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "bd3e4a43-3688-4ef7-a843-dcf0476d37c3")
-	)
-	(segment
-		(start 135.364 82.829)
-		(end 135.364 82.956)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "bd668558-940e-4197-aa25-73f36317dba9")
 	)
 	(segment
 		(start 123.99211 80.0096)
@@ -9326,6 +9303,14 @@
 		(layer "F.Cu")
 		(net 9)
 		(uuid "d48912a8-afe6-4559-a0dd-5f2dacb704b1")
+	)
+	(segment
+		(start 132.824 82.067)
+		(end 134.602 82.067)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "e599ee41-4456-49c0-aa15-57322623ac45")
 	)
 	(segment
 		(start 123.99211 78.83389)
