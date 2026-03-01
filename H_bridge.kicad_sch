@@ -2600,7 +2600,7 @@
 	)
 	(text "Puente H\n"
 		(exclude_from_sim no)
-		(at 154.432 44.45 0)
+		(at 154.94 45.466 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2763,12 +2763,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "784e57fd-4a39-47ac-b143-903e483b08b5")
-	)
-	(junction
-		(at 104.14 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f0d118c-61f1-4548-ad94-69737dba7689")
 	)
 	(junction
 		(at 76.2 78.74)
@@ -3243,16 +3237,6 @@
 			(type default)
 		)
 		(uuid "37696a28-a168-4578-b33f-95ebcd95bc82")
-	)
-	(wire
-		(pts
-			(xy 91.44 129.54) (xy 91.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3916d04e-63b3-429d-b5c5-70740f478bb4")
 	)
 	(wire
 		(pts
@@ -3746,16 +3730,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.73) (xy 104.14 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873bb707-f95f-4fe8-9b3b-cc3ad5d11756")
-	)
-	(wire
-		(pts
 			(xy 187.96 113.03) (xy 187.96 115.57)
 		)
 		(stroke
@@ -3956,16 +3930,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.73) (xy 116.84 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ef2969e-6a12-46f7-93bb-25b86caff352")
-	)
-	(wire
-		(pts
 			(xy 199.39 90.17) (xy 199.39 92.71)
 		)
 		(stroke
@@ -3973,16 +3937,6 @@
 			(type default)
 		)
 		(uuid "a04342de-3732-4fd2-ba0b-8574e37473f4")
-	)
-	(wire
-		(pts
-			(xy 104.14 139.7) (xy 104.14 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6b96002-1b3d-4997-a460-b4a9d6280b1c")
 	)
 	(wire
 		(pts
@@ -4016,7 +3970,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 107.95) (xy 104.14 102.87)
+			(xy 104.14 105.41) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4316,7 +4270,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 104.14) (xy 76.2 109.22)
+			(xy 76.2 104.14) (xy 76.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4343,16 +4297,6 @@
 			(type default)
 		)
 		(uuid "ea401815-8aae-43b3-85e1-6d1abf3ce924")
-	)
-	(wire
-		(pts
-			(xy 91.44 125.73) (xy 104.14 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0eef24f-21ac-4439-bd1d-cabc8190baf1")
 	)
 	(wire
 		(pts
@@ -4403,16 +4347,6 @@
 			(type default)
 		)
 		(uuid "f88e85b6-7e5d-4f4c-9541-ea568c8a2f0d")
-	)
-	(wire
-		(pts
-			(xy 91.44 137.16) (xy 91.44 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa853344-5c88-4839-bff7-0cda1e1ac280")
 	)
 	(wire
 		(pts
@@ -4802,7 +4736,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 104.14 107.95 0)
+		(at 104.14 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4810,7 +4744,7 @@
 		(dnp no)
 		(uuid "08cd6d56-ca3d-4d00-b551-c79132882267")
 		(property "Reference" "#PWR013"
-			(at 104.14 114.3 0)
+			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 111.76 0)
+			(at 104.14 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4828,7 +4762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 107.95 0)
+			(at 104.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 107.95 0)
+			(at 104.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 116.84 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,72 +5564,6 @@
 			(project ""
 				(path "/f44802e2-8b3d-47f8-8c3e-4de3fa2035af"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 104.14 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e130f6f-9f02-46d5-aa30-c399e3aea507")
-		(property "Reference" "#PWR03"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 144.78 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97a8eaa5-5897-4a6c-ad6e-16f4eb12e021")
-		)
-		(instances
-			(project "H_bridge"
-				(path "/f44802e2-8b3d-47f8-8c3e-4de3fa2035af"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6496,127 +6364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_AKL:C_0805")
-		(at 104.14 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d3f6c0a-95e0-4c69-b264-375a36f26e7d")
-		(property "Reference" "C2"
-			(at 100.584 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100NF"
-			(at 97.79 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_AKL:C_0805_2012Metric"
-			(at 105.1052 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_NUMBER" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOL" "100V"
-			(at 107.442 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOL" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1853551"
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0664b9df-af16-4c84-81e7-a7f718aba717")
-		)
-		(pin "2"
-			(uuid "3b2308ba-fa4f-4f9b-bb0e-d4ec097a94b7")
-		)
-		(instances
-			(project "H_bridge"
-				(path "/f44802e2-8b3d-47f8-8c3e-4de3fa2035af"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 107.95 57.15 180)
 		(unit 1)
@@ -7106,72 +6853,6 @@
 			(project ""
 				(path "/f44802e2-8b3d-47f8-8c3e-4de3fa2035af"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 91.44 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8eca9ce5-26bf-4fe2-8ac3-bd76f6c1dd15")
-		(property "Reference" "#PWR02"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 144.78 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f083c7b-275c-4826-8164-19e2dd771151")
-		)
-		(instances
-			(project "H_bridge"
-				(path "/f44802e2-8b3d-47f8-8c3e-4de3fa2035af"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7974,7 +7655,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 76.2 109.22 0)
+		(at 76.2 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7982,7 +7663,7 @@
 		(dnp no)
 		(uuid "e45078ee-cc69-4eee-8f33-811da576a4c0")
 		(property "Reference" "#PWR012"
-			(at 76.2 115.57 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,7 +7672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 113.03 0)
+			(at 76.2 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8000,7 +7681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 109.22 0)
+			(at 76.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,7 +7690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 109.22 0)
+			(at 76.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8018,7 +7699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 118.11 0)
+			(at 76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,8 +8007,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 101.6 98.806 0)
+		(property "Value" "1.5K"
+			(at 100.838 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,7 +8105,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22548"
+		(property "LCSC Part" "C114668"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 104.14 99.06 0)
 			(effects
 				(font
@@ -8443,127 +8142,6 @@
 			(project "H_bridge"
 				(path "/f44802e2-8b3d-47f8-8c3e-4de3fa2035af"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_AKL:C_0805")
-		(at 91.44 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe88fc14-4371-443f-aedf-fd68e90431ce")
-		(property "Reference" "C1"
-			(at 86.36 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100NF"
-			(at 84.582 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_AKL:C_0805_2012Metric"
-			(at 92.4052 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_NUMBER" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOL" "100V"
-			(at 93.472 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOL" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1853551"
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26cb6bf6-a069-47e9-bd87-a9d6f8017ebe")
-		)
-		(pin "2"
-			(uuid "3b980246-7015-408f-bb08-43b4342f65fc")
-		)
-		(instances
-			(project ""
-				(path "/f44802e2-8b3d-47f8-8c3e-4de3fa2035af"
-					(reference "C1")
 					(unit 1)
 				)
 			)
